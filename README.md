@@ -1,2 +1,2 @@
-#Intern bot
-hire to increase your social media audience
+#InternBot
+hire me to increase your social media audience
