@@ -11,6 +11,10 @@
 // about supported directives.
 //
 //= require jquery
+//= require jquery.hammer.min
+//= require jquery.superslides
 //= require jquery_ujs
+//= require bootstrap
+//= require classie
 //= require turbolinks
 //= require_tree .

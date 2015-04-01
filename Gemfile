@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+ruby '2.2.0'
 
 gem 'rails', '4.2.0'
 gem 'pg'
@@ -12,6 +12,11 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'unicorn'
 gem 'faraday'
+gem 'stripe', git: "https://github.com/stripe/stripe-ruby"
+gem 'devise'
+gem 'redis'
+gem 'sidekiq'
+gem 'simple_form', '~> 3.1.0'
 
 group :development, :test do
   gem 'byebug'
