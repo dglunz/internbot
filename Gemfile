@@ -17,6 +17,7 @@ gem 'devise'
 gem 'redis'
 gem 'sidekiq'
 gem 'simple_form', '~> 3.1.0'
+gem 'ionicons-rails'
 
 group :development, :test do
   gem 'byebug'
