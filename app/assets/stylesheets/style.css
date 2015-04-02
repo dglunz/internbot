@@ -320,7 +320,7 @@ input {
 }
 
 .btn-download {
-  background: #FDE3A7;
+  background: #F7CA18;
 }
 
 /* Buttons */
@@ -350,6 +350,18 @@ input {
 .btn-clear:hover {
   background: white;
   color: #2f2f2f;
+}
+
+.btn-white {
+  background: white;
+  color: black;
+  border: 1px solid white;
+}
+
+.btn-white:hover {
+  background: transparent;
+  color: white;
+  border: 1px solid white;
 }
 
 /* HERO banner with fixed position */
@@ -597,4 +609,53 @@ h2 {
   left: 15px;
   position: absolute;
   top: 15px;
+}
+
+.green {
+	color: #1abc9c;
+}
+
+#g {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background: #f7f8fa;
+}
+
+/* CALL TO ACTION */
+#cta {
+	background: #2f2f2f;
+	color: white;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#cta h2 {
+	text-align: center;
+}
+
+/* service panels*/
+.ser {
+	border: 2px solid #2f2f2f;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.ser p {
+	margin: 5px;
+}
+
+.detail {
+  font-weight: 700;
+  font-size: 45px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.sub {
+  font-size: 18px;
+  color: #ccc;
+  position: relative;
+  bottom: 10px;
+  font-weight: 700;
 }

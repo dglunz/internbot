@@ -13,6 +13,7 @@
 //= require jquery
 //= require jquery.hammer.min
 //= require jquery.superslides
+//= require jquery.unveilEffects
 //= require jquery_ujs
 //= require bootstrap
 //= require classie
