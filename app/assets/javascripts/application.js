@@ -12,6 +12,7 @@
 //
 //= require jquery
 //= require jquery.hammer.min
+//= require jquery.easing
 //= require jquery.superslides
 //= require jquery.unveilEffects
 //= require jquery_ujs
