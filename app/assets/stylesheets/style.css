@@ -99,9 +99,13 @@ a:focus {
 }
 
 /* HEADER SECTION */
+.interny {
+  max-height: 300px;
+}
+
 #h {
   background-color: #F7CA18;
-  padding-top: 200px;
+  padding-top: 100px;
   text-align:center;
   background-attachment: relative;
   background-position: center center;
@@ -368,7 +372,7 @@ input {
 
 #bannertext {
   position: fixed;
-  top: 33%;
+  top: 13%;
   right: 0;
   left: 0;
   z-index: 2;
