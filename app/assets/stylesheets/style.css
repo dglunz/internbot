@@ -556,31 +556,27 @@ h2 {
 
 /* FOOTER */
 #f {
+  min-height: 500px;
   padding-bottom: 40px;
   padding-top: 40px;
   margin-top: 50px;
-  background: #2f2f2f;
   color: white;
+  background: #F7CA18;
+  position: relative;
 }
 
-#f .icon {
-  margin-right: 25px;
-  font-size: 35px;
+.intern-footer {
+  bottom: 0;
+  right: 0;
+  position: absolute;
 }
 
-#f price {
-  font-weight: 900;
-  font-size: 150px;
-  margin-bottom: 20px;
-}
-
-#f cross {
-  text-decoration: line-through;
-  font-weight: 700;
+.contact {
+  padding-top: 100px;
 }
 
 #f h5 {
-  color: #b9b9b9;
+  color: white;
   font-weight: 400;
   text-transform: uppercase;
 }
@@ -617,6 +613,10 @@ h2 {
 
 .green {
 	color: #1abc9c;
+}
+
+.gold {
+  color: #F7CA18;
 }
 
 #g {
@@ -663,3 +663,4 @@ h2 {
   bottom: 10px;
   font-weight: 700;
 }
+
