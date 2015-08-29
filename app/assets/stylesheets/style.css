@@ -1,5 +1,6 @@
 /* Import fonts */
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:900);
 
 * { 
   margin: 0;
@@ -316,7 +317,8 @@ input {
   float: left;
   width: 65%;
   text-align: left;
-  margin-right: 2px;
+  margin-right: 20px;
+  border: white solid 1px;
 }
 
 .subscribe-submit {
@@ -369,6 +371,12 @@ input {
 }
 
 /* HERO banner with fixed position */
+
+#bannertext .lato {
+  font-family: 'Lato';
+  font-weight: 600;
+  padding-bottom: 10px;
+}
 
 #bannertext {
   position: fixed;
